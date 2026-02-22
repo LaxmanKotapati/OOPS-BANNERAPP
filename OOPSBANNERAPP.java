@@ -1,16 +1,18 @@
 class OOPSBANNERAPP {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
 
-        System.out.println(" *****   *****   *****   ***** ");
-        System.out.println("*     * *     * *     * *     *");
-        System.out.println("*     * *     * *     * *      ");
-        System.out.println("*     * *     * *****    ***** ");
-        System.out.println("*     * *     * *              *");
-        System.out.println("*     * *     * *        *     *");
-        System.out.println(" *****   *****  *         ***** ");
+        String banner = String.join("\n",
+            " *****    *****    ******    ***** ",
+            "*     *  *     *   *     *  *     *",
+            "*     *  *     *   *     *  *      ",
+            "*     *  *     *   ******    ***** ",
+            "*     *  *     *   *              *",
+            "*     *  *     *   *        *     *",
+            " *****    *****    *         ***** "
+        );
 
+        System.out.println(banner);
     }
 }
-
 
 
