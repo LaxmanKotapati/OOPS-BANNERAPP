@@ -1,19 +1,19 @@
-class OOPSBANNERAPP {
-    public static void main(String args[]) {
+public class OOPSBANNERAPP {
 
-        String banner[] = {
-            " *****    *****    ******    ***** ",
-            "*     *  *     *   *     *  *     *",
-            "*     *  *     *   *     *  *      ",
-            "*     *  *     *   ******    ***** ",
-            "*     *  *     *   *              *",
-            "*     *  *     *   *        *     *",
-            " *****    *****    *         ***** "
+    public static void main(String[] args) {
+
+        String[] banner = {
+            " *****    *****    ******    ****** ",
+            "*     *  *     *   *     *   *      ",
+            "*     *  *     *   *     *   *      ",
+            "*     *  *     *   ******    ****** ",
+            "*     *  *     *   *         *     *",
+            "*     *  *     *   *         *     *",
+            " *****    *****    *          ******"
         };
 
-        for (int i = 0; i < banner.length; i++) {
-            System.out.println(banner[i]);
+        for (String line : banner) {
+            System.out.println(line);
         }
     }
 }
-
